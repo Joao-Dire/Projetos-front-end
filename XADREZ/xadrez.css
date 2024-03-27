@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+text {
+     font-size: medium;
+}
+
+.tabuleiro {
+    border: 2px solid black;
+    width: 800px;
+    height: 800px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-rows: 8, 100px;
+    
+}
+
+.linha1,
+.linha2,
+.linha3,
+.linha4,
+.linha5,
+.linha6,
+.linha7,
+.linha8 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+.preto {
+    background-color: #fbce9c;
+    width: 100px;
+    height: 100px;  
+    
+}
+
+.branco {
+    width: 100px;
+    height: 100px;
+    background-color: #d38d47; 
+}
